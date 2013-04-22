@@ -1,0 +1,13 @@
+diff --git "a/C:\\Users\\Darcy.G\\AppData\\Local\\Temp\\TortoiseGit\\bui56FA.tmp\\build-c36986b-left.nmml" "b/D:\\OpenSource\\StablexUI\\samples\\loops\\build.nmml"
+index 13ea46a..18fd0d6 100644
+--- "a/C:\\Users\\Darcy.G\\AppData\\Local\\Temp\\TortoiseGit\\bui56FA.tmp\\build-c36986b-left.nmml"
++++ "b/D:\\OpenSource\\StablexUI\\samples\\loops\\build.nmml"
+@@ -2,7 +2,7 @@
+ <project>
+ 
+     <meta title="StablexUI Loops" package="ru.stablex.ui" version="0.0.1" company="R.U.N" />
+-    <app path="./build" file="stablexui" main="com.example.Main"/>
++    <app path="./build" file="stablexui" main="Main"/>
+ 
+     <window width="800" height="600" background="0xFFFFFF" fps="60"/>
+ 

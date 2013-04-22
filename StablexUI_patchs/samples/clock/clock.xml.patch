@@ -1,0 +1,16 @@
+diff --git "a/C:\\Users\\Darcy.G\\AppData\\Local\\Temp\\TortoiseGit\\cloC3EE.tmp\\clock-c36986b-left.xml" "b/D:\\OpenSource\\StablexUI\\samples\\clock\\clock.xml"
+index 1d68921..3950b3d 100644
+--- "a/C:\\Users\\Darcy.G\\AppData\\Local\\Temp\\TortoiseGit\\cloC3EE.tmp\\clock-c36986b-left.xml"
++++ "b/D:\\OpenSource\\StablexUI\\samples\\clock\\clock.xml"
+@@ -1,9 +1,9 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ 
+-<VBox w="$Lib.current.stage.stageWidth" w="$Lib.current.stage.stageHeight" childPadding="20">
++<VBox w="$Lib.current.stage.stageWidth" h="$Lib.current.stage.stageHeight" childPadding="20">
+ 
+     <!-- Count backward -->
+-    <Clock value="60*60*2" format="'Countdown: %H:%M:%S'" forward="false" on-display="$this.run();"/>
++    <Clock value="60*60*2" timeFormat="'Countdown: %H:%M:%S'" forward="false" on-display="$this.run();"/>
+ 
+     <!-- Count forward -->
+     <Clock on-display="$this.run();"/>

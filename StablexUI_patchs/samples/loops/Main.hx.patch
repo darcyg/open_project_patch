@@ -1,0 +1,10 @@
+diff --git "a/C:\\Users\\Darcy.G\\AppData\\Local\\Temp\\TortoiseGit\\MaiAEE8.tmp\\Main-c36986b-left.hx" "b/D:\\OpenSource\\StablexUI\\samples\\loops\\Main.hx"
+index 1c2206c..bf0df32 100644
+--- "a/C:\\Users\\Darcy.G\\AppData\\Local\\Temp\\TortoiseGit\\MaiAEE8.tmp\\Main-c36986b-left.hx"
++++ "b/D:\\OpenSource\\StablexUI\\samples\\loops\\Main.hx"
+@@ -1,4 +1,4 @@
+-package com.example;
++package;
+ 
+ import nme.display.StageAlign;
+ import nme.display.StageScaleMode;

@@ -1,0 +1,10 @@
+diff --git "a/C:\\Users\\Darcy.G\\AppData\\Local\\Temp\\TortoiseGit\\Mai627E.tmp\\Main-c36986b-left.hx" "b/D:\\OpenSource\\StablexUI\\samples\\dragDrop_simple\\Main.hx"
+index fb6bf57..f66e212 100644
+--- "a/C:\\Users\\Darcy.G\\AppData\\Local\\Temp\\TortoiseGit\\Mai627E.tmp\\Main-c36986b-left.hx"
++++ "b/D:\\OpenSource\\StablexUI\\samples\\dragDrop_simple\\Main.hx"
+@@ -1,4 +1,4 @@
+-package com.example;
++package;
+ 
+ import nme.Lib;
+ import ru.stablex.ui.UIBuilder;

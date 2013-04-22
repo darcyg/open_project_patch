@@ -1,0 +1,22 @@
+diff --git "a/C:\\Users\\Darcy.G\\AppData\\Local\\Temp\\TortoiseGit\\Mai73EC.tmp\\Main-c36986b-left.hx" "b/D:\\OpenSource\\StablexUI\\samples\\clock\\Main.hx"
+index d57bb10..c252808 100644
+--- "a/C:\\Users\\Darcy.G\\AppData\\Local\\Temp\\TortoiseGit\\Mai73EC.tmp\\Main-c36986b-left.hx"
++++ "b/D:\\OpenSource\\StablexUI\\samples\\clock\\Main.hx"
+@@ -1,5 +1,6 @@
+ package;
+ 
++import nme.Lib;
+ import ru.stablex.ui.UIBuilder;
+ 
+ 
+@@ -15,9 +16,8 @@ class Main extends nme.display.Sprite{
+     static public function main () : Void{
+         //initialize StablexUI
+         UIBuilder.init();
+-
+         //Create UI and attach it to root display object
+-        nme.Lib.current.addChild( UIBuilder.buildFn('clock.xml')() );
++        Lib.current.addChild( UIBuilder.buildFn('clock.xml')() );
+     }//function main()
+ 
+ 
